@@ -1,4 +1,4 @@
-# Assignment Pipelines in Jenkins
+# Assignment 4: Pipelines in Jenkins
 
 Voor deze opdracht maak je opnieuw gebruik van de VM met daarin Jenkins uit de vorige les.
 
@@ -49,7 +49,7 @@ Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot 
 ![alt_text](https://i.imgur.com/Hv9jkZE.png "image_tooltip")
 Push deze jenkinsfile naar de github repo.
 
-#Deliverable
+# Deliverable
 - De verschillende screenshots in de `oplossing.md` file. Deze screenshots bevatten de console output van de relevante stappen alsook de pipeline steps indien niet duidelijk.
 - De pipeline als script in de file `Jenkinsfile` in deze repository **(geen Jenkinsfile resulteert in een 0 op deze opdracht)**.
 
