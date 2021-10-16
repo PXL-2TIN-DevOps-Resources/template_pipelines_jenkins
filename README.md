@@ -44,7 +44,7 @@ Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot 
 ![alt_text](https://i.imgur.com/Hv9jkZE.png "image_tooltip")
 Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot onder punt (c) met het het bewijs van een werkende pipeline a.d.h.v. de console output
 
-5. Neem de pipeline code die je gebouwd hebt en sla deze op in een file genaamd “Jenkinsfile” en voeg deze toe aan de map van je opdracht, naast de file readme.md en oplossing.md.
+6. Neem de pipeline code die je gebouwd hebt en sla deze op in een file genaamd “Jenkinsfile” en voeg deze toe aan de map van je opdracht, naast de file readme.md en oplossing.md.
 
 ![alt_text](https://i.imgur.com/Hv9jkZE.png "image_tooltip")
 Push deze jenkinsfile naar de github repo.
