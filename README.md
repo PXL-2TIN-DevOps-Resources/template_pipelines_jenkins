@@ -23,7 +23,7 @@ Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot 
     2. Ga in bovenstaande directory en maak voor elk teamlid een lege file aan met als naam de naam van je groepslid.
     3. Maak een zipfile met de naam 'groepinfo.zip' die de bestanden in een zipfile archiveert.
     4. doe een ls die de structuur van je mappen toont. Je zou onderstaande structuur moeten aanhouden:
-    ```
+```
 . (working dir)
 │   groepinfo.zip 
 │
@@ -31,8 +31,7 @@ Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot 
 │   │   lid1
 │   │   lid2
 │   │   lid3
-
-    ```
+```
  
  4. Voorzie vervolgens een stage  "schoonmaak". Deze stage zorg ervoor dat de files en de directory elke keer succesvol aangemaakt kunnen worden (zorg dat de lokale directory na elke build poging opgeruimd wordt).
 
