@@ -21,7 +21,7 @@ Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot 
 3. Vul de pipeline aan met een stage die “create zipfile” heet en die de volgende commando's uitvoert:
     1. Maak een nieuwe directory aan die de naam van jou groep draagt.
     2. Ga in bovenstaande directory en maak voor elk teamlid een lege file aan met als naam de naam van je groepslid.
-    3. Ga terug in de workspace directory. Maak een zipfile met de naam 'groepinfo.zip' die de bestanden (= de namen van de teamleden) in een zipfile archiveert. De naam van de zipfile mag je zelf kiezen.
+    3. Ga terug in de workspace directory. Maak een zipfile met de naam 'groepinfo.zip' die de bestanden (= de namen van de teamleden) in een zipfile archiveert.
     4. doe een ls vanuit je workspace direcotry die de structuur van je mappen toont. Je zou onderstaande structuur moeten aanhouden:
 ```
 . (working dir)
