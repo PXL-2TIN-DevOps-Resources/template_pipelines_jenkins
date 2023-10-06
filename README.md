@@ -11,21 +11,21 @@ Log in op je jenkins server.
 Voer de pipeline uit en zorg dat deze werkt.
 
 2. Vul de pipeline aan met een script stage die “show folders” heet en die de volgende stappen heeft:
-    1. Die een nieuwe file maakt in de actieve map met als naam `.halloween`
+    1. Die een nieuwe file maakt in de actieve map met als naam `.oktober`
     2. Doe een listing van de huidige directory die bestanden (inclusief verborgen bestanden) in een lijstje toont en de bestandsgrootte weergeeft.
     3. gebruik een shell commando om het volledige pad van de workspace (=huidige map) weer te geven.
 
 ![alt_text](https://i.imgur.com/Hv9jkZE.png "image_tooltip")
 Voer de pipeline succesvol uit en plaats in de file oplossing.md een screenshot onder punt (a) met het het bewijs van een werkende pipeline a.d.h.v. de console output
 
-3. Vul de pipeline aan met een stage die “create zipfile” heet en die de volgende commando's uitvoert:
+3. Vul de pipeline aan met een stage die “create bundle” heet en die de volgende commando's uitvoert:
     1. Maak een nieuwe directory aan die de naam van jou groep draagt.
     2. Ga in bovenstaande directory en maak voor elk teamlid een lege file aan met als naam de naam van je groepslid.
-    3. Ga terug in de workspace directory. Maak een zipfile met de naam 'groepinfo.zip' die de bestanden (= de namen van de teamleden) in een zipfile archiveert.
+    3. Ga terug in de workspace directory. Maak een zipfile met de naam 'groepsleden.zip' die de bestanden (= de namen van de teamleden) in een zipfile archiveert.
     4. doe een ls vanuit je workspace direcotry die de structuur van je mappen toont. Je zou onderstaande structuur moeten aanhouden:
 ```
 . (working dir)
-│   groepinfo.zip 
+│   groepsleden.zip 
 │
 └───groepsnaam
 │   │   lid1
